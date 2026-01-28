@@ -1,6 +1,8 @@
 // Typescript
 // 27. Remove_Element
 // Easy | Arry and two pointer
+// Time | complexity : O(n)
+// Space | complexity : O(1)
 
 function removeElement(nums: number[], val: number): number {
      let k : number = 0
@@ -17,3 +19,4 @@ function removeElement(nums: number[], val: number): number {
 
 console.log(removeElement([3,2,2,3],3)) // Output: 2
 console.log(removeElement([0,1,2,2,3,0,4,2],2)) // Output: 5
+

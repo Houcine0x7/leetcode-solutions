@@ -16,7 +16,8 @@ function maximumWealth(accounts: number[][]): number {
     return Biggest_total
 };
 
-console.log(maximumWealth([[1,2,3],[3,2,1]]));
-console.log(maximumWealth([[1,5],[7,3],[3,5]]));
-console.log(maximumWealth([[2,8,7],[1,9,5]]));
+console.log(maximumWealth([[1,2,3],[3,2,1]])); // Output: 6
+console.log(maximumWealth([[1,5],[7,3],[3,5]])); // Output: 10
+console.log(maximumWealth([[2,8,7],[1,9,5]])); // Output: 17
+
 

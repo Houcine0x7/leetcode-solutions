@@ -1,6 +1,8 @@
 // Typescript
 // 1672. Richest Customer Wealth
 // Easy | Array
+// Time | complexity : O(n * m)
+// Space | complexity : O(1)
 
 function maximumWealth(accounts: number[][]): number {
     let Biggest_total: number = 0
@@ -19,5 +21,6 @@ function maximumWealth(accounts: number[][]): number {
 console.log(maximumWealth([[1,2,3],[3,2,1]])); // Output: 6
 console.log(maximumWealth([[1,5],[7,3],[3,5]])); // Output: 10
 console.log(maximumWealth([[2,8,7],[1,9,5]])); // Output: 17
+
 
 

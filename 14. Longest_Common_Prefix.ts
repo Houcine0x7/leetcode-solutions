@@ -1,7 +1,8 @@
 // Typescript
 // 14. Longest Common Prefix
 // Easy | Arry
-
+// Time | complexity : O(n * m)
+// Space | complexity : O(m)
 
 function longestCommonPrefix(strs: string[]): string {
     let prefix: string = ""
@@ -18,4 +19,5 @@ function longestCommonPrefix(strs: string[]): string {
 
 console.log(longestCommonPrefix(["flower","flow","flight"])) // Output: "fl"
 console.log(longestCommonPrefix(["dog","racecar","car"])) // Output: ""
+
 
